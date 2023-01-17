@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const margin = EdgeInsets.all(15.0);
+import 'constants.dart';
 
 class ReusableCard extends StatelessWidget {
 
@@ -15,7 +15,7 @@ class ReusableCard extends StatelessWidget {
     return GestureDetector(
       onTap: onPress,
       child: Container(
-        margin: margin,
+        margin: kMargin,
         decoration: BoxDecoration(
           color: colour,
           borderRadius: BorderRadius.circular(10.0),
